@@ -1,0 +1,35 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ $1.html [L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+<Filesmatch "\.(jpg|jpeg|png|gif|js|css|swf|ico|woff|mp3)$">
+    ExpiresActive on
+    ExpiresDefault "access plus 2 days"
+</Filesmatch>
+
+# 1 YEAR
+<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$">
+Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+
+# 1 WEEK
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+# 3 HOUR
+<FilesMatch "\.(txt|xml|js|css)$">
+Header set Cache-Control "max-age=10800"
+</FilesMatch>
+
+ErrorDocument 400 /www.doctorcristhiandiaz.com/400.shtml
+ErrorDocument 403 /www.doctorcristhiandiaz.com/403.shtml
+ErrorDocument 404 /www.doctorcristhiandiaz.com/404.shtml
+ErrorDocument 500 /www.doctorcristhiandiaz.com/500.shtml
+
+</ifmodule>
