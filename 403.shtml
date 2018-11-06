@@ -1,0 +1,107 @@
+<!doctype html>
+
+<!--Author: Bilden Software
+Author URL: http://bildensoftware.com-->
+
+<html class="no-js" lang="es" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<!--START META-TAGS SEARCH ENGINE-->
+	<title>403 | Acceso denegado</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="classification" content="Doctor Cristhian Díaz, Cirugías Plásticas, Lipoescultura, Abdominoplastia, Mamoplastia, Rinoplastia, Ritidoplastia">
+    <meta name="description" content="Doctor Cristhian Díaz, especializado en cirugía plástica reconstructiva y reparadora en el Hospital Dr. Ignacio Pirovano. Cirugías plásticas, cirugías plásticas en bogotá, lipoescultura, abdominoplastia, mamoplastia, rinoplastia, ritidoplastia">
+    <meta name="keywords" content="Doctor Cristhian Díaz, cirugías plásticas, cirugías plásticas en bogotá, lipoescultura, lipoescultura en bogotá, abdominoplastia, abdominoplastia en bogotá, mamoplastia, mamoplastia en bogotá, rinoplastia, rinoplastia en bogotá, ritidoplastia, ritidoplastia en bogotá">
+    <meta name="author" content="Bilden Software">
+    <meta content="id" name="geo.country">
+    <meta name="geo.placename" content="Colombia">
+    <meta name="revisit-after" content="1 Days">
+    <meta name="robots" content="ALL">
+    <meta name="copyright" content="2016">
+    <!--END META-TAGS SEARCH ENGINE-->
+    
+    <!--START FAVICON-->
+    <link id="favicon" rel="icon" type="image/png" href="images/favicon.ico">
+    <!--END FAVICON--> 
+	
+    <!--START CSS FILES-->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
+	<link href="css/style.css" rel='stylesheet' type='text/css'>
+    <!--END CSS FILES-->
+    
+    <!--START WEB-FONTS-->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic%7C.Open+Sans:300italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <!--END WEB-FONTS-->
+    
+    <!--START JQUERY BOOTSTRAP'S JS PLUGINS-->
+	<script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!--END JQUERY BOOTSTRAP'S JS PLUGINS-->
+	
+    <!--START SMOOTH-SCROLLING-->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+    <!--END SMOOTH-SCROLLING-->  
+    
+    <!--START SLIDER-SCRIPT-->
+	<script src="js/responsiveslides.min.js"></script>
+    <!--END SLIDER-SCRIPT-->
+    
+    <!--START CONTACT FORM JS-->
+    <script type="text/javascript" src="js/form.js"></script>
+    <!--END CONTACT FORM JS-->
+    
+</head>
+
+<body>
+	
+    <!--START MAIN-HEADER-->
+	<div class="main-header">
+		
+        <!--START HEADER-->
+        <div id="home" class="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="logo">
+                        <a href="#home"><img src="images/logo.png" width="197" height="105" alt="Doctor Cristhian Diaz"></a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+        <!--END HEADER-->
+        
+        <!--START CONTAINER-->
+        <div id="top" class="callbacks_container">
+        
+        	<!--START SLIDER-->
+        	<ul class="rslides" id="slider4">
+            	<li>
+                	<div class="tittle-head">
+                    	<h1 class="">¡Prohibido!</h1>
+			          	<p>No tienes acceso a la página que buscas.</p>
+			          	<div class="learn-button">
+                        	<a class="slide-btn" href="index.html">Volver</a>
+			          	</div>
+			        </div>
+                </li>
+			</ul>
+            <!--END SLIDER-->
+		</div>
+        <!--END CONTAINER-->
+		<div class="clearfix"></div>
+	</div>
+    <!--END MAIN-HEADER-->
+    
+    <!--START SCROLL TO-TOP-->
+    <a href="#home" id="toTop" style="display: block;"> 
+    	<span id="toTopHover" style="opacity: 1;"></span>
+    </a>
+    <!--END SCROLL TO-TOP-->
+
+</body>
+</html>
